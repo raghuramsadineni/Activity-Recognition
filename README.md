@@ -31,3 +31,5 @@ This is something that almost everyone is familiar with. So, let’s go ahead an
 2)Download the files I have uploaded or create them in the same procedure as above.This will be processed in this Step.
 First, we have a large amount of data we reduce them by taking mean for every 128 points(this doesn't infect bad values to data)
 Download and execute cleaning.py file to perform this operation(all files must be placed in same Folder)
+
+3)This creates new files named as "Fdata1.csv" and "Fdata.csv"
