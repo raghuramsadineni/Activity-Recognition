@@ -1,5 +1,7 @@
 # Activity-Recognition
 Activity Recognition - Stationary vs Walking
+
+Summary:
 1) Install the Accelerometer Analyzer app from play store.
 2) Dataset preparation
 	i) Keep the mobile on a platform and record the activity in the app and name the file accordingly(1-2 mins).
@@ -12,3 +14,20 @@ Activity Recognition - Stationary vs Walking
 	iv) KMeans
 	v)Random Forests
 4) Record a new activity and use the models built to classify the type of activity.
+
+Procedure:
+1)
+Accelerometer app measures the attributes like:
+i)sensorspeed
+ii)units
+iii)gravity
+iv)Accuracy
+
+How Android Accelerometer Work?
+Android accelerometer usually measures the acceleration by force.How?
+In simple words, Android Accelerometer senses how much a mass presses on something when a force acts on it.
+This is something that almost everyone is familiar with. So, let’s go ahead and see how you can integrate Android accelerometer in your Android app to detect shake in an Android device
+
+2)Download the files I have uploaded or create them in the same procedure as above.This will be processed in this Step.
+First, we have a large amount of data we reduce them by taking mean for every 128 points(this doesn't infect bad values to data)
+Download and execute cleaning.py file to perform this operation(all files must be placed in same Folder)
