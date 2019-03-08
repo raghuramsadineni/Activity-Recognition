@@ -9,7 +9,7 @@ Summary:
 	iii) Repeat the aboce activities for about 15-20 times.
 3) Use the data from the files and use it for training and testing:
 	i) KNN
-	ii) Decission tree
+	ii) Decision tree
 	iii) Neural networks
 	iv) KMeans
 	v)Random Forests
